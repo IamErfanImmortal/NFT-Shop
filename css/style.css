@@ -23,12 +23,58 @@ body{
 /* MyCodes */
 :root{
     --color_07101D:#07101D;
-    --color_FF3C00:#FF3C00;
+    --color_secondary:#FF3C00;
 }
-.bg_red {
-    background-color: var(--color_FF3C00);
+.bg_secondary {
+    background-color: var(--color_secondary);
+}
+.text_color_secondary {
+    color: var(--color_secondary);
+}
+.border_secondary {
+    border-color: var(--color_secondary) !important;
+}
+.gradient_site {
+    background-image: linear-gradient(to right,#7011AD,#BC0505,#FC630F);
+}
+input.my_input_hover_no_border:focus-visible {
+    outline: none;
+}
+.my_fs1 {
+    font-size: 1rem;
+}
+.my_fs15 {
+    font-size: 1.5rem;
+}
+.my_fs2 {
+    font-size: 2rem;
+}
+.my_fs25 {
+    font-size: 2.5rem;
+}
+.my_fs3 {
+    font-size: 3rem;
+}
+.my_fs35 {
+    font-size: 3.5rem;
+}
+.my_fs4 {
+    font-size: 4rem;
 }
 /* Header */
+.my_bg_beauty {
+    content: '';
+    width: 904px;
+    height: 876px;
+    background-image: radial-gradient(#3D0D58 38%, #070F1C 0);
+    position: absolute;
+    filter: blur(74px);
+    -webkit-filter: blur(74px);
+    opacity: 0.5;
+    top: -270px;
+    right: -270px;
+    z-index: -2;
+}
 
 /* Import Font */
 @font-face {
@@ -89,6 +135,18 @@ body{
 @media screen and (max-width:991.98px) {
     .bg_dark_md {
         background-color: var(--bs-secondary-color);
+    }
+    .my_bg_beauty {
+        content: '';
+        width: 370px;
+        height: 370px;
+        background-image: radial-gradient(#3D0D58 38%, #070F1C 0);
+        position: absolute;
+        filter: blur(74px);
+        -webkit-filter: blur(74px);
+        opacity: 0.5;
+        top: -146px;
+        right: -62px;
     }
     
 }

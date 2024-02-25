@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 <head>
     <!-- Meta Tags -->
     <meta charset="UTF-8">
@@ -12,7 +12,7 @@
     <meta name="language" content="EN" />
     <meta name="author" content="Erfan, info@erfanmoazen.dev" />
     <!-- CSS Tags -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- FontAwesome.Pro.6.5.0 -->
     <link rel="stylesheet" href="css/all.min.css" />
@@ -21,18 +21,63 @@
     <!-- Title Tag -->
     <title>Resume</title>
 </head>
-<body class="container">
-  <div class="row">
-    <div class="col">
-      <i class="fa-solid fa-face-awesome"></i>
-    </div>
-    <div class="col">
-      تست اولیه۱۲۳۴۵۶۷۸۹۰
-      <i class="fas fa-address-book" aria-hidden></i>
-      <br>
-      <a href="" data-toggle="tooltip" data-placement="right"  title="Antar">Beep </a>
-    </div>
-  </div>
+<body>
+  <header class="container" >
+    <nav class="navbar navbar-expand-lg mt-3">
+      <div class="container-fluid">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-light fa-bars-staggered text-light"></i>
+        </button>
+        <a class="navbar-brand text-light fs-3 fw-bold" href="#">Iran NFT</a>
+        <div class="d-lg-none">
+          <a href="#">
+            <i class="fa-solid fa-magnifying-glass fs-5 fw-bold text-light"></i>
+          </a>
+          <a href="#">
+            <i class="fa-regular fa-user ms-2 fs-5 fw-bold text-light"></i>  
+          </a>
+          <a href="#">
+            <i class="fa-regular fa-cart-shopping ms-2 fs-5 fw-bold text-light"></i>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse justify-content-lg-between rounded-4 p-2 bg_dark_md" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-75 justify-content-center gap-3">
+            <li class="nav-item">
+              <a class="nav-link text-secondary fs-5 fw-bold active" aria-current="page" href="#"> صفحه اصلی </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary fs-5 fw-bold" href="#">آموزش NFT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary fs-5 fw-bold" href="#">گالری NFT ایرانی</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary fs-5 fw-bold" href="#">تبلیغ NFT</a>
+            </li>
+          </ul>
+          <span class="navbar-text d-none d-lg-inline-block">
+            <a href="#">
+              <button type="button" class="btn text-light position-relative">
+                <i class="fa-regular fa-cart-shopping"></i>
+                <span class="position-absolute top-0 start-0 translate-middle badge rounded-pill bg-danger">
+                  0
+                </span>
+              </button>
+            </a>
+            <a href="#" class="bg_red text-light p-2 rounded-2">
+              <i class="fa-regular fa-user me-1"></i>
+              ورود / ثبت نام
+            </a>
+          </span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+ 
+
+
 
     
     <!-- Optional JavaScript -->

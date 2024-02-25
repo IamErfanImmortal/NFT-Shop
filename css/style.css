@@ -18,10 +18,12 @@ ul{
     --color_07101D:#07101D;
     --color_FF3C00:#FF3C00;
 }
+.bg_red {
+    background-color: var(--color_FF3C00);
+}
 body{
     font-family: kalameh;
     background-color: var(--color_07101D);
-    
 }
 @font-face {
     font-family: kalameh;
@@ -73,4 +75,16 @@ body{
     font-style: normal;
     font-weight: bold;
     src: url('../font/WebFonts/_Woff/Gilroy-Bold.woff') format('woff');
+}
+
+
+
+
+
+
+@media screen and (max-width:991.98px) {
+    .bg_dark_md {
+        background-color: var(--bs-secondary-color);
+    }
+    
 }

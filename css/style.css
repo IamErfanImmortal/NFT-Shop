@@ -1,3 +1,4 @@
+/* General Codes */
 img {
     max-width: 100%;
     height: auto;
@@ -14,6 +15,12 @@ ul{
     box-sizing: border-box;
     /* border: 1px solid #fff; */
 }
+body{
+    font-family: kalameh;
+    background-color: var(--color_07101D);
+}
+
+/* MyCodes */
 :root{
     --color_07101D:#07101D;
     --color_FF3C00:#FF3C00;
@@ -21,10 +28,9 @@ ul{
 .bg_red {
     background-color: var(--color_FF3C00);
 }
-body{
-    font-family: kalameh;
-    background-color: var(--color_07101D);
-}
+/* Header */
+
+/* Import Font */
 @font-face {
     font-family: kalameh;
     font-style: normal;
@@ -50,8 +56,6 @@ body{
     font-weight: 300;
     src: url('../font/WebFonts/_Woff/KalamehWeb-Thin.woff') format('woff');
 }
-
-
 @font-face {
     font-family: kalameh;
     font-style: normal;
@@ -81,7 +85,7 @@ body{
 
 
 
-
+/* Media Query */
 @media screen and (max-width:991.98px) {
     .bg_dark_md {
         background-color: var(--bs-secondary-color);

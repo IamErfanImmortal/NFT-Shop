@@ -37,9 +37,6 @@ body{
 .gradient_site {
     background-image: linear-gradient(to right,#7011AD,#BC0505,#FC630F);
 }
-input.my_input_hover_no_border:focus-visible {
-    outline: none;
-}
 .my_fs1 {
     font-size: 1rem;
 }
@@ -75,7 +72,49 @@ input.my_input_hover_no_border:focus-visible {
     right: -270px;
     z-index: -2;
 }
-
+input.my_input_hover_no_border:focus-visible {
+    outline: none;
+}
+.search_form_header {
+    height: 57px;
+}
+.search_form_header button {
+    right: 8px;
+    top: 29%;
+    margin-right: 7px;
+}
+.main_img_header::before {
+    content: '';
+    background-image: url(../images/Path.png);
+    position: absolute;
+    width: 45px;
+    height: 81px;
+    background-repeat: no-repeat;
+    top: 4rem;
+    right: 5rem;
+}
+.main_img_header::after {
+    content: '';
+    background-image: url(../images/scribble.png);
+    position: absolute;
+    width: 72px;
+    height: 57px;
+    background-repeat: no-repeat;
+    bottom: 3rem;
+    left: 2rem;
+}
+.count_user_site {
+    width: 224px ;
+    height: 60px;
+    backdrop-filter: blur(2px);
+    background-color: rgba(255,255,255,0.3);
+    position: absolute;
+    bottom: 5rem;
+    right: 5rem;
+}
+.count_user_site img {
+    width: 90px;
+}
 /* Import Font */
 @font-face {
     font-family: kalameh;

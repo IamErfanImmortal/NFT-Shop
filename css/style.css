@@ -126,6 +126,15 @@ input.my_input_hover_no_border:focus-visible {
 .count_user_site img {
     width: 90px;
 }
+/* Main */
+.icon_header {
+    width: 75px;
+    height: 75px;
+}
+
+
+
+
 /* Import Font */
 @font-face {
     font-family: kalameh;

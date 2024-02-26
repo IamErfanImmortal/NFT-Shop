@@ -189,7 +189,29 @@ input.my_input_hover_no_border:focus-visible {
     -o-transform: rotate(-43deg);
 }
 
-
+.bidcard {
+    background-color: #161E2A !important;
+    border-radius: 19px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -ms-border-radius: 19px;
+    -o-border-radius: 19px;
+}
+.card {
+    background-color: #161E2A !important;
+}
+.bidcardtime {
+    top: 18px;
+    left: 33px;
+}
+.bidcardtime > span , .bidcardtime > a {
+    backdrop-filter: blur(2px);
+    background-color: rgba(255,255,255,0.3);
+    padding: 0 6px !important;
+}
+.bidcardtime > span {
+    padding: 0 12px !important;
+}
 /* Import Font */
 @font-face {
     font-family: kalameh;

@@ -131,8 +131,63 @@ input.my_input_hover_no_border:focus-visible {
     width: 75px;
     height: 75px;
 }
-
-
+.wallet_box {
+    padding: 1px;
+    height: 200px;
+}
+.wallet_box > div {
+    background-color: #161E2A;
+}
+.wallet_box1 {
+    background-image: linear-gradient(to right bottom,#07101D,#FC280C);
+}
+.wallet_box1::after {
+    border-top: 1px solid #FC280C;
+}
+.wallet_box2 {
+    background-image: linear-gradient(to right bottom,#07101D,#00D1FF);
+}
+.wallet_box2::after {
+    border-top: 1px solid #00D1FF;
+}
+.wallet_box3 {
+    background-image: linear-gradient(to right bottom,#07101D,#760AFF);
+}
+.wallet_box3::after {
+    border-top: 1px solid #760AFF;
+}
+.wallet_box4 {
+    background-image: linear-gradient(to right bottom,#07101D,#FE007A);
+}
+.wallet_box4::after {
+    border-top: 1px solid #FE007A;
+}
+.wallet_box5 {
+    background-image: linear-gradient(to right bottom,#07101D,#FFBF1C);
+}
+.wallet_box5::after {
+    border-top: 1px solid #FFBF1C;
+}
+.wallet_box6 {
+    background-image: linear-gradient(to right bottom,#07101D,#FC280C);
+}
+.wallet_box6::after {
+    border-top: 1px solid #FC280C;
+}
+.wallet_box::after {
+    content: '';
+    width: 54px;
+    height: 26px;
+    background-color: #07101D;
+    position: absolute;
+    right: -15px;
+    bottom: -4px;
+    transform: rotate(-43deg);
+    -webkit-transform: rotate(-43deg);
+    -moz-transform: rotate(-43deg);
+    -ms-transform: rotate(-43deg);
+    -o-transform: rotate(-43deg);
+}
 
 
 /* Import Font */

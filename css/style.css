@@ -1,319 +1,349 @@
 /* General Codes */
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
-*{
-    margin: 0 ;
-    padding: 0 ;
-    box-sizing: border-box;
-    /* border: 1px solid #fff; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid #fff; */
 }
-body{
-    font-family: kalameh;
-    background-color: var(--color_07101D);
+body {
+  font-family: kalameh;
+  background-color: var(--color_07101D);
 }
-
+.section_distance{
+    margin-top: 10rem;
+}
 /* MyCodes */
-:root{
-    --color_07101D:#07101D;
-    --color_secondary:#FF3C00;
+:root {
+  --color_07101D: #07101d;
+  --color_secondary: #ff3c00;
 }
 .bg_secondary {
-    background-color: var(--color_secondary);
+  background-color: var(--color_secondary);
 }
 .text_color_secondary {
-    color: var(--color_secondary);
+  color: var(--color_secondary);
 }
 .border_secondary {
-    border-color: var(--color_secondary) !important;
+  border-color: var(--color_secondary) !important;
 }
 .gradient_site {
-    background-image: linear-gradient(to right,#7011AD,#BC0505,#FC630F);
+  background-image: linear-gradient(to right, #7011ad, #bc0505, #fc630f);
 }
 .my_fs1 {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 .my_fs15 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 .my_fs2 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 .my_fs25 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 .my_fs3 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 .my_fs35 {
-    font-size: 3.5rem;
+  font-size: 3.5rem;
 }
 .my_fs4 {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 /* Header */
-header::after{
-    content: '';
-    background-image: url('/images/Group1.png');
-    background-repeat: no-repeat;
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -2;
+header::after {
+  content: "";
+  background-image: url("/images/Group1.png");
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
 }
 .my_bg_beauty {
-    content: '';
-    width: 904px;
-    height: 876px;
-    background-image: radial-gradient(#3D0D58 38%, #070F1C 0);
-    position: absolute;
-    filter: blur(74px);
-    -webkit-filter: blur(74px);
-    opacity: 0.5;
-    top: -270px;
-    right: -270px;
-    z-index: -2;
+  content: "";
+  width: 904px;
+  height: 876px;
+  background-image: radial-gradient(#3d0d58 38%, #070f1c 0);
+  position: absolute;
+  filter: blur(74px);
+  -webkit-filter: blur(74px);
+  opacity: 0.5;
+  top: -270px;
+  right: -270px;
+  z-index: -2;
 }
 input.my_input_hover_no_border:focus-visible {
-    outline: none;
+  outline: none;
 }
 .search_form_header {
-    height: 57px;
+  height: 57px;
 }
 .search_form_header button {
-    right: 8px;
-    top: 29%;
-    margin-right: 7px;
+  right: 8px;
+  top: 29%;
+  margin-right: 7px;
 }
 .main_img_header::before {
-    content: '';
-    background-image: url(../images/Path.png);
-    position: absolute;
-    width: 45px;
-    height: 81px;
-    background-repeat: no-repeat;
-    top: 4rem;
-    right: 5rem;
+  content: "";
+  background-image: url(../images/Path.png);
+  position: absolute;
+  width: 45px;
+  height: 81px;
+  background-repeat: no-repeat;
+  top: 4rem;
+  right: 5rem;
 }
 .main_img_header::after {
-    content: '';
-    background-image: url(../images/scribble.png);
-    position: absolute;
-    width: 72px;
-    height: 57px;
-    background-repeat: no-repeat;
-    bottom: 3rem;
-    left: 2rem;
+  content: "";
+  background-image: url(../images/scribble.png);
+  position: absolute;
+  width: 72px;
+  height: 57px;
+  background-repeat: no-repeat;
+  bottom: 3rem;
+  left: 2rem;
 }
 .count_user_site {
-    width: 224px ;
-    height: 60px;
-    backdrop-filter: blur(2px);
-    background-color: rgba(255,255,255,0.3);
-    position: absolute;
-    bottom: 5rem;
-    right: 5rem;
+  width: 224px;
+  height: 60px;
+  backdrop-filter: blur(2px);
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  bottom: 5rem;
+  right: 5rem;
 }
 .count_user_site img {
-    width: 90px;
+  width: 90px;
 }
 /* Main */
 .icon_header {
-    width: 75px;
-    height: 75px;
+  width: 75px;
+  height: 75px;
 }
 .wallet_box {
-    padding: 1px;
-    height: 200px;
+  padding: 1px;
+  height: 200px;
 }
 .wallet_box > div {
-    background-color: #161E2A;
+  background-color: #161e2a;
 }
 .wallet_box1 {
-    background-image: linear-gradient(to right bottom,#07101D,#FC280C);
+  background-image: linear-gradient(to right bottom, #07101d, #fc280c);
 }
 .wallet_box1::after {
-    border-top: 1px solid #FC280C;
+  border-top: 1px solid #fc280c;
 }
 .wallet_box2 {
-    background-image: linear-gradient(to right bottom,#07101D,#00D1FF);
+  background-image: linear-gradient(to right bottom, #07101d, #00d1ff);
 }
 .wallet_box2::after {
-    border-top: 1px solid #00D1FF;
+  border-top: 1px solid #00d1ff;
 }
 .wallet_box3 {
-    background-image: linear-gradient(to right bottom,#07101D,#760AFF);
+  background-image: linear-gradient(to right bottom, #07101d, #760aff);
 }
 .wallet_box3::after {
-    border-top: 1px solid #760AFF;
+  border-top: 1px solid #760aff;
 }
 .wallet_box4 {
-    background-image: linear-gradient(to right bottom,#07101D,#FE007A);
+  background-image: linear-gradient(to right bottom, #07101d, #fe007a);
 }
 .wallet_box4::after {
-    border-top: 1px solid #FE007A;
+  border-top: 1px solid #fe007a;
 }
 .wallet_box5 {
-    background-image: linear-gradient(to right bottom,#07101D,#FFBF1C);
+  background-image: linear-gradient(to right bottom, #07101d, #ffbf1c);
 }
 .wallet_box5::after {
-    border-top: 1px solid #FFBF1C;
+  border-top: 1px solid #ffbf1c;
 }
 .wallet_box6 {
-    background-image: linear-gradient(to right bottom,#07101D,#FC280C);
+  background-image: linear-gradient(to right bottom, #07101d, #fc280c);
 }
 .wallet_box6::after {
-    border-top: 1px solid #FC280C;
+  border-top: 1px solid #fc280c;
 }
 .wallet_box::after {
-    content: '';
-    width: 54px;
-    height: 26px;
-    background-color: #07101D;
-    position: absolute;
-    right: -15px;
-    bottom: -4px;
-    transform: rotate(-43deg);
-    -webkit-transform: rotate(-43deg);
-    -moz-transform: rotate(-43deg);
-    -ms-transform: rotate(-43deg);
-    -o-transform: rotate(-43deg);
+  content: "";
+  width: 54px;
+  height: 26px;
+  background-color: #07101d;
+  position: absolute;
+  right: -15px;
+  bottom: -4px;
+  transform: rotate(-43deg);
+  -webkit-transform: rotate(-43deg);
+  -moz-transform: rotate(-43deg);
+  -ms-transform: rotate(-43deg);
+  -o-transform: rotate(-43deg);
 }
 
 .bidcard {
-    background-color: #161E2A !important;
-    border-radius: 19px;
-    -webkit-border-radius: 19px;
-    -moz-border-radius: 19px;
-    -ms-border-radius: 19px;
-    -o-border-radius: 19px;
+  background-color: #161e2a !important;
+  border-radius: 19px;
+  -webkit-border-radius: 19px;
+  -moz-border-radius: 19px;
+  -ms-border-radius: 19px;
+  -o-border-radius: 19px;
 }
 .card {
-    background-color: #161E2A !important;
+  background-color: #161e2a !important;
 }
 .bidcardtime {
-    top: 18px;
-    left: 33px;
+  top: 18px;
+  left: 33px;
 }
-.bidcardtime > span , .bidcardtime > a {
-    backdrop-filter: blur(2px);
-    background-color: rgba(255,255,255,0.3);
-    padding: 0 6px !important;
+.bidcardtime > span,
+.bidcardtime > a {
+  backdrop-filter: blur(2px);
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 0 6px !important;
 }
 .bidcardtime > span {
-    padding: 0 12px !important;
+  padding: 0 12px !important;
 }
 .gilroy_font {
-    font-family: Gilroy_Bold ;
+  font-family: Gilroy_Bold;
 }
-.Ellipse_2{
-    width: 952px;
-    height: 991px;
-    border-radius: 100%;
-    position: absolute;
-    bottom: -55%;
-    left: 0%;
-    z-index: -1;
-    filter: blur(50px);
-    background: radial-gradient(62.37% 62.37% at 50.00% 50.00%, rgba(8, 164, 117, 0.10) 28.57%, rgba(7, 15, 28, 0.00) 100%);
-  }
+.Ellipse_2 {
+  width: 952px;
+  height: 991px;
+  border-radius: 100%;
+  position: absolute;
+  bottom: -55%;
+  left: 0%;
+  z-index: -1;
+  filter: blur(50px);
+  background: radial-gradient(
+    62.37% 62.37% at 50% 50%,
+    rgba(8, 164, 117, 0.1) 28.57%,
+    rgba(7, 15, 28, 0) 100%
+  );
+}
+.icon_box_property{
+    width: 90px;
+    height: 90px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(25px);
+    right: 2rem;
+    top: -3rem;
+}
+.box_property {
+    height: 240px;
+}
+.box_property_1{
+    border: 1px solid #00FF1A;
+    background: linear-gradient(107deg,rgba(0, 255, 26, 0.10) ,rgba(255, 255, 255, 0.10));
+}
+.box_property_2{
+    border: 1px solid #5300FF;
+    background: linear-gradient(107deg,rgba(83, 0, 255, 0.10) ,rgba(255, 255, 255, 0.10));
+}
+.box_property_3{
+    border: 1px solid #FF1F00;
+    background: linear-gradient(107deg,rgba(255, 31, 0, 0.10) ,rgba(255, 255, 255, 0.10));
+}
 /* Import Font */
 @font-face {
-    font-family: kalameh;
-    font-style: normal;
-    font-weight: 900;
-    src: url('../font/WebFonts/_Woff/KalamehWeb-Black.woff') format('woff');
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../font/WebFonts/_Woff/KalamehWeb-Black.woff") format("woff");
 }
 @font-face {
-    font-family: kalameh;
-    font-style: normal;
-    font-weight: bold;
-    src: url('../font/WebFonts/_Woff/KalamehWeb-Bold.woff') format('woff');
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../font/WebFonts/_Woff/KalamehWeb-Bold.woff") format("woff");
 }
 
 @font-face {
-    font-family: kalameh;
-    font-style: normal;
-    font-weight: normal;
-    src: url('../font/WebFonts/_Woff/KalamehWeb-Regular.woff') format('woff');
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../font/WebFonts/_Woff/KalamehWeb-Regular.woff") format("woff");
 }
 @font-face {
-    font-family: kalameh;
-    font-style: normal;
-    font-weight: 300;
-    src: url('../font/WebFonts/_Woff/KalamehWeb-Thin.woff') format('woff');
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../font/WebFonts/_Woff/KalamehWeb-Thin.woff") format("woff");
 }
 @font-face {
-    font-family: kalameh;
-    font-style: normal;
-    font-weight: 900;
-    src: url('../font/WebFonts/_Woff/KalamehWeb\(FaNum\)-Black.woff') format('woff');
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../font/WebFonts/_Woff/KalamehWeb\(FaNum\)-Black.woff")
+    format("woff");
 }
 @font-face {
-    font-family: kalameh;
-    font-style: normal;
-    font-weight: bold;
-    src: url('../font/WebFonts/_Woff/KalamehWeb\(FaNum\)-Bold.woff') format('woff');
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../font/WebFonts/_Woff/KalamehWeb\(FaNum\)-Bold.woff")
+    format("woff");
 }
 @font-face {
-    font-family: kalameh;
-    font-style: normal;
-    font-weight: normal;
-    src: url('../font/WebFonts/_Woff/KalamehWeb\(FaNum\)-Regular.woff') format('woff');
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../font/WebFonts/_Woff/KalamehWeb\(FaNum\)-Regular.woff")
+    format("woff");
 }
 @font-face {
-    font-family: Gilroy_Bold;
-    font-style: normal;
-    font-weight: bold;
-    src: url('../font/WebFonts/_Woff/Gilroy-Bold.woff') format('woff');
+  font-family: Gilroy_Bold;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../font/WebFonts/_Woff/Gilroy-Bold.woff") format("woff");
 }
-
-
-
-
 
 /* Media Query */
-@media screen and (max-width:991.98px) {
-    .bg_dark_md {
-        background-color: var(--bs-secondary-color);
-    }
-    .my_bg_beauty {
-        width: 34%;
-        height: 31%;
-        top: -14px;
-        right: 64%;
-        filter: blur(33px);
-        -webkit-filter: blur(33px);
-        opacity: 1;
-    }
-    header::after {
-        display: none;
-    }
-    .bidcardtime {
-        top: 18px;
-        left: 10px;
-    }
+@media screen and (max-width: 991.98px) {
+  .bg_dark_md {
+    background-color: var(--bs-secondary-color);
+  }
+  .my_bg_beauty {
+    width: 34%;
+    height: 31%;
+    top: -14px;
+    right: 64%;
+    filter: blur(33px);
+    -webkit-filter: blur(33px);
+    opacity: 1;
+  }
+  header::after {
+    display: none;
+  }
+  .bidcardtime {
+    top: 18px;
+    left: 10px;
+  }
 }
 
-@media screen and (max-width:767.98px) {
-    .title_main_header {
-        font-size: 2rem;
-        text-align: center;
-    }
-    header::after {
-        z-index: 1;
-    }
-    .bidcardtime {
-        top: 18px;
-        left: 0px;
-    }
+@media screen and (max-width: 767.98px) {
+  .title_main_header {
+    font-size: 2rem;
+    text-align: center;
+  }
+  header::after {
+    z-index: 1;
+  }
+  .bidcardtime {
+    top: 18px;
+    left: 0px;
+  }
 }

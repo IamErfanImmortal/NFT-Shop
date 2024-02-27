@@ -276,6 +276,14 @@ input.my_input_hover_no_border:focus-visible {
     background: radial-gradient(62.37% 62.37% at 50% 50%, rgba(189, 9, 95, 0.13) 37.62%, rgba(7, 15, 28, 0.00) 100%);
     z-index: -1;
 }
+.artist_box {
+  height: 162px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background-color: #161e2a ;
+}
+.artist_box > img {
+  width: 109px !important;
+}
 /* Import Font */
 @font-face {
   font-family: kalameh;

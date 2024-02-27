@@ -212,6 +212,20 @@ input.my_input_hover_no_border:focus-visible {
 .bidcardtime > span {
     padding: 0 12px !important;
 }
+.gilroy_font {
+    font-family: Gilroy_Bold ;
+}
+.Ellipse_2{
+    width: 952px;
+    height: 991px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -55%;
+    left: 0%;
+    z-index: -1;
+    filter: blur(50px);
+    background: radial-gradient(62.37% 62.37% at 50.00% 50.00%, rgba(8, 164, 117, 0.10) 28.57%, rgba(7, 15, 28, 0.00) 100%);
+  }
 /* Import Font */
 @font-face {
     font-family: kalameh;
@@ -284,7 +298,10 @@ input.my_input_hover_no_border:focus-visible {
     header::after {
         display: none;
     }
-    
+    .bidcardtime {
+        top: 18px;
+        left: 10px;
+    }
 }
 
 @media screen and (max-width:767.98px) {
@@ -294,5 +311,9 @@ input.my_input_hover_no_border:focus-visible {
     }
     header::after {
         z-index: 1;
+    }
+    .bidcardtime {
+        top: 18px;
+        left: 0px;
     }
 }

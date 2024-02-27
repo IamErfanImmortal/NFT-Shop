@@ -284,6 +284,30 @@ input.my_input_hover_no_border:focus-visible {
 .artist_box > img {
   width: 109px !important;
 }
+.box_newsletter {
+  background: linear-gradient(90deg, #A50E86 0.16%, #C10B70 24.02%, #E83947 38.73%, #DF330D 55.88%, #C55212 81.05%, #D37506 100%);
+  height: 324px;
+  border: 5px solid rgba(255, 255, 255, 0.3);
+}
+.box_newsletter::before,.box_newsletter::after{
+  content: '';
+  width: 982.714px;
+  height: 726.266px;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+.box_newsletter::before{
+  background-image: url('/images/Group2.png');
+  left: 15px;
+  top: 6px;
+}
+.box_newsletter::after{
+  background-image: url('/images/Group3.png');
+  right: -30rem;
+  bottom: -25rem;
+}
+
+
 /* Import Font */
 @font-face {
   font-family: kalameh;
@@ -379,5 +403,8 @@ input.my_input_hover_no_border:focus-visible {
   .bidcardtime {
     top: 18px;
     left: 0px;
+  }
+  .box_newsletter::before,.box_newsletter::after {
+    display: none;
   }
 }

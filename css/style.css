@@ -268,6 +268,14 @@ input.my_input_hover_no_border:focus-visible {
 .img_box_trends img {
     width: 90%;
 }
+.Ellipse_3{
+    width: 1605px;
+    height: 1613px;
+    top: -17rem;
+    right: -37rem;
+    background: radial-gradient(62.37% 62.37% at 50% 50%, rgba(189, 9, 95, 0.13) 37.62%, rgba(7, 15, 28, 0.00) 100%);
+    z-index: -1;
+}
 /* Import Font */
 @font-face {
   font-family: kalameh;
@@ -343,6 +351,13 @@ input.my_input_hover_no_border:focus-visible {
     top: 18px;
     left: 10px;
   }
+  .Ellipse_3{
+    width: 805px;
+    height: 803px;
+    top: -17rem;
+    right: -37rem;
+    
+}
 }
 
 @media screen and (max-width: 767.98px) {

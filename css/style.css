@@ -291,10 +291,11 @@ input.my_input_hover_no_border:focus-visible {
 }
 .box_newsletter::before,.box_newsletter::after{
   content: '';
-  width: 982.714px;
-  height: 726.266px;
+  width: 400px;
+  height: 400px;
   position: absolute;
   background-repeat: no-repeat;
+  z-index: 1;
 }
 .box_newsletter::before{
   background-image: url('/images/Group2.png');
@@ -303,10 +304,16 @@ input.my_input_hover_no_border:focus-visible {
 }
 .box_newsletter::after{
   background-image: url('/images/Group3.png');
-  right: -30rem;
-  bottom: -25rem;
+  right: 1rem;
+  bottom: -5rem;
 }
-
+footer {
+  background: #091028;
+  border-top: 3px solid transparent;
+  border-image: linear-gradient(to left, white 0%, black 100%);
+  border-image-slice: 1;
+  box-sizing: border-box;
+}
 
 /* Import Font */
 @font-face {
